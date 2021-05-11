@@ -1,0 +1,146 @@
+ 
+body {
+    background-color: #2a0f28 ;
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 15px;
+  }
+   
+  .container {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-content { background-color: rgba(134, 77, 151, 0.24); }
+   
+  #intro-img {
+    background-image: url(/img/laltop03.png);
+    background-position: center;
+    background-size: contain;
+    min-height: 425px;
+  }
+  
+  .text-white { color: rgb(255, 255, 255); font-style: Bold;}
+ 
+  .page-header-container { text-align: center; }
+
+  .page-header {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 2.1rem;
+    font-weight: 400;
+  }
+   
+  .section-header {
+    color: #ff9100ed;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  table {
+    width: 100%;
+    border-spacing: 0px;
+  }
+       
+  td {
+    text-align: center;
+    padding: 10px 15px;
+  }
+ 
+  .text-left { text-align: left; }
+   
+  th {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+ 
+  tr:nth-child(odd) { background-color: #F96DEA; }
+ 
+  tr.tr-header {
+    background-color:  #E415A3;
+    height: 50px;
+  }
+   
+  .section {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+  
+  .section-small {
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+  }
+ 
+  p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+ 
+  .mb-0 { margin-bottom: 0; }
+  img { max-width: 100%; }
+  figure { margin: 0; }
+  figcaption { text-align: center; }
+
+  figcaption span {
+    display: block;
+    color: #ddb1b1;
+    font-size: 18px;
+  }
+   
+  .item-name {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+    
+  .special-items {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  .special-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+     
+  hr {
+    width: 60%;
+    border: 0.5px solid #d39bcb;
+  }
+ 
+  .contact-link {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  a { transition: all 0.3s ease; }
+  .contact-link:hover { color: #ff6600; }
+  
+  .footer-text {
+    font-size: 0.9rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+ 
+  .footer-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  .footer-link:hover { color: #e4ec79; }
